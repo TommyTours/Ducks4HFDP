@@ -2,31 +2,15 @@
 
 namespace Ducks
 {
-    public class Duck
+    public interface Duck
     {
-        public string Quack()
-        {
-            Console.WriteLine("Quack Quack");
-            return "Quack Quack";
-        }
+        string Quack();
 
-        public string Swim()
-        {
-            Console.WriteLine("Splash Splash");
-            return "Splash Splash";
-        }
+        string Swim();
 
-        public string Fly()
-        {
-            Console.WriteLine("Flap Flap");
-            return "Flap Flap";
-        }
+        string Fly();
 
-        public virtual string Display()
-        {
-            Console.WriteLine("Vaguely Duck Shaped");
-            return "Vaguely Duck Shaped";
-        }
+        string Display();
 
     }
 }

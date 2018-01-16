@@ -6,24 +6,24 @@ namespace DuckTest
     [TestClass]
     public class UnitTest1
     {
-        Duck myDuck = new Duck(); 
-        [TestMethod]
-        public void CanQuack()
-        {
-            Assert.AreEqual("Quack Quack", myDuck.Quack());
-        }
+        //Duck myDuck = new Duck(); 
+        //[TestMethod]
+        //public void CanQuack()
+        //{
+        //    Assert.AreEqual("Quack Quack", myDuck.Quack());
+        //}
 
-        [TestMethod]
-        public void CanFly()
-        {
-            Assert.AreEqual("Flap Flap", myDuck.Fly());
-        }
+        //[TestMethod]
+        //public void CanFly()
+        //{
+        //    Assert.AreEqual("Flap Flap", myDuck.Fly());
+        //}
 
-        [TestMethod]
-        public void CanSwim()
-        {
-            Assert.AreEqual("Splash Splash", myDuck.Swim());
-        }
+        //[TestMethod]
+        //public void CanSwim()
+        //{
+        //    Assert.AreEqual("Splash Splash", myDuck.Swim());
+        //}
 
         Duck myMallardDuck = new Mallard();
 
